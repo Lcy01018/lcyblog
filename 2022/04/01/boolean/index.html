@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="description" content="JS运算符"/><meta name="keywords" content="javascript, 新開始" /><link rel="alternate" href="/default" title="新開始" ><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.1" />
+<link rel="canonical" href="http://lcy01018.github.io/2022/04/01/boolean/"/>
+
+<link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.1" />
+
+<script>
+  window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":"","latex":false};
+</script>
+
+    <title>JS运算符 - 新開始</title>
+  <meta name="generator" content="Hexo 6.1.0"></head>
+
+  <body><div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/." class="logo">新開始</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list"><a href="/">
+        <li class="mobile-menu-item">Home
+          </li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags
+          </li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories
+          </li>
+      </a></ul>
+</nav>
+<div class="container" id="mobile-panel">
+      <header id="header" class="header"><div class="logo-wrapper">
+  <a href="/." class="logo">新開始</a>
+</div>
+
+<nav class="site-navbar"><ul id="menu" class="menu"><li class="menu-item">
+          <a class="menu-item-link" href="/">
+            Home
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/tags/">
+            Tags
+            </a>
+        </li>
+      <li class="menu-item">
+          <a class="menu-item-link" href="/categories/">
+            Categories
+            </a>
+        </li>
+      </ul></nav>
+</header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content"><article class="post">
+    <header class="post-header">
+      <h1 class="post-title">JS运算符
+        </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          2022-04-01
+        </span><span class="post-category">
+            <a href="/categories/notes/">notes</a>
+            </span>
+        </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">布尔运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-text">概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%96%E5%8F%8D%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88-%EF%BC%89"><span class="toc-text">取反运算符（!）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%94%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88-amp-amp-%EF%BC%89"><span class="toc-text">且运算符（&amp;&amp;）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%96%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88-%EF%BC%89"><span class="toc-text">或运算符（||）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E5%85%83%E6%9D%A1%E4%BB%B6%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%88-%EF%BC%89"><span class="toc-text">三元条件运算符（?:）</span></a></li></ol></li></ol>
+    </div>
+  </div><div class="post-content"><hr>
+<h1 id="布尔运算符"><a href="#布尔运算符" class="headerlink" title="布尔运算符"></a>布尔运算符</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>布尔运算符用于将表达式转为布尔值，一共包含四个运算符。</p>
+<ul>
+<li>取反运算符：<code>!</code></li>
+<li>且运算符：<code>&amp;&amp;</code></li>
+<li>或运算符：<code>||</code></li>
+<li>三元运算符：<code>?:</code></li>
+</ul>
+<h2 id="取反运算符（-）"><a href="#取反运算符（-）" class="headerlink" title="取反运算符（!）"></a>取反运算符（!）</h2><p>取反运算符是一个感叹号，用于将布尔值变为相反值，即<code>true</code>变成<code>false</code>，<code>false</code>变成<code>true</code>。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">!<span class="literal">true</span> <span class="comment">// false</span></span><br><span class="line">!<span class="literal">false</span> <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+
+<p>对于非布尔值，取反运算符会将其转为布尔值。可以这样记忆，以下六个值取反后为<code>true</code>，其他值都为<code>false</code>。</p>
+<ul>
+<li><code>undefined</code></li>
+<li><code>null</code></li>
+<li><code>false</code></li>
+<li><code>0</code></li>
+<li><code>NaN</code></li>
+<li>空字符串（<code>&#39;&#39;</code>）</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">!<span class="literal">undefined</span> <span class="comment">// true</span></span><br><span class="line">!<span class="literal">null</span> <span class="comment">// true</span></span><br><span class="line">!<span class="number">0</span> <span class="comment">// true</span></span><br><span class="line">!<span class="title class_">NaN</span> <span class="comment">// true</span></span><br><span class="line">!<span class="string">&quot;&quot;</span> <span class="comment">// true</span></span><br><span class="line"></span><br><span class="line">!<span class="number">54</span> <span class="comment">// false</span></span><br><span class="line">!<span class="string">&#x27;hello&#x27;</span> <span class="comment">// false</span></span><br><span class="line">![] <span class="comment">// false</span></span><br><span class="line">!&#123;&#125; <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，不管什么类型的值，经过取反运算后，都变成了布尔值。</p>
+<p>如果对一个值连续做两次取反运算，等于将其转为对应的布尔值，与<code>Boolean</code>函数的作用相同。这是一种常用的类型转换的写法。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">!!x</span><br><span class="line"><span class="comment">// 等同于</span></span><br><span class="line"><span class="title class_">Boolean</span>(x)</span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，不管<code>x</code>是什么类型的值，经过两次取反运算后，变成了与<code>Boolean</code>函数结果相同的布尔值。所以，两次取反就是将一个值转为布尔值的简便写法。</p>
+<h2 id="且运算符（-amp-amp-）"><a href="#且运算符（-amp-amp-）" class="headerlink" title="且运算符（&amp;&amp;）"></a>且运算符（&amp;&amp;）</h2><p>且运算符（<code>&amp;&amp;</code>）往往用于多个表达式的求值。</p>
+<p>它的运算规则是：如果第一个运算子的布尔值为<code>true</code>，则返回第二个运算子的值（注意是值，不是布尔值）；如果第一个运算子的布尔值为<code>false</code>，则直接返回第一个运算子的值，且不再对第二个运算子求值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#x27;t&#x27;</span> &amp;&amp; <span class="string">&#x27;&#x27;</span> <span class="comment">// &quot;&quot;</span></span><br><span class="line"><span class="string">&#x27;t&#x27;</span> &amp;&amp; <span class="string">&#x27;f&#x27;</span> <span class="comment">// &quot;f&quot;</span></span><br><span class="line"><span class="string">&#x27;t&#x27;</span> &amp;&amp; (<span class="number">1</span> + <span class="number">2</span>) <span class="comment">// 3</span></span><br><span class="line"><span class="string">&#x27;&#x27;</span> &amp;&amp; <span class="string">&#x27;f&#x27;</span> <span class="comment">// &quot;&quot;</span></span><br><span class="line"><span class="string">&#x27;&#x27;</span> &amp;&amp; <span class="string">&#x27;&#x27;</span> <span class="comment">// &quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> x = <span class="number">1</span>;</span><br><span class="line">(<span class="number">1</span> - <span class="number">1</span>) &amp;&amp; ( x += <span class="number">1</span>) <span class="comment">// 0</span></span><br><span class="line">x <span class="comment">// 1</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码的最后一个例子，由于且运算符的第一个运算子的布尔值为<code>false</code>，则直接返回它的值<code>0</code>，而不再对第二个运算子求值，所以变量<code>x</code>的值没变。</p>
+<p>这种跳过第二个运算子的机制，被称为“短路”。有些程序员喜欢用它取代<code>if</code>结构，比如下面是一段<code>if</code>结构的代码，就可以用且运算符改写。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (i) &#123;</span><br><span class="line">  <span class="title function_">doSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 等价于</span></span><br><span class="line"></span><br><span class="line">i &amp;&amp; <span class="title function_">doSomething</span>();</span><br></pre></td></tr></table></figure>
+
+<p>上面代码的两种写法是等价的，但是后一种不容易看出目的，也不容易除错，建议谨慎使用。</p>
+<p>且运算符可以多个连用，这时返回第一个布尔值为<code>false</code>的表达式的值。如果所有表达式的布尔值都为<code>true</code>，则返回最后一个表达式的值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="literal">true</span> &amp;&amp; <span class="string">&#x27;foo&#x27;</span> &amp;&amp; <span class="string">&#x27;&#x27;</span> &amp;&amp; <span class="number">4</span> &amp;&amp; <span class="string">&#x27;foo&#x27;</span> &amp;&amp; <span class="literal">true</span></span><br><span class="line"><span class="comment">// &#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="number">1</span> &amp;&amp; <span class="number">2</span> &amp;&amp; <span class="number">3</span></span><br><span class="line"><span class="comment">// 3</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，例一里面，第一个布尔值为<code>false</code>的表达式为第三个表达式，所以得到一个空字符串。例二里面，所有表达式的布尔值都是<code>true</code>，所以返回最后一个表达式的值<code>3</code>。</p>
+<h2 id="或运算符（-）"><a href="#或运算符（-）" class="headerlink" title="或运算符（||）"></a>或运算符（||）</h2><p>或运算符（<code>||</code>）也用于多个表达式的求值。它的运算规则是：如果第一个运算子的布尔值为<code>true</code>，则返回第一个运算子的值，且不再对第二个运算子求值；如果第一个运算子的布尔值为<code>false</code>，则返回第二个运算子的值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#x27;t&#x27;</span> || <span class="string">&#x27;&#x27;</span> <span class="comment">// &quot;t&quot;</span></span><br><span class="line"><span class="string">&#x27;t&#x27;</span> || <span class="string">&#x27;f&#x27;</span> <span class="comment">// &quot;t&quot;</span></span><br><span class="line"><span class="string">&#x27;&#x27;</span> || <span class="string">&#x27;f&#x27;</span> <span class="comment">// &quot;f&quot;</span></span><br><span class="line"><span class="string">&#x27;&#x27;</span> || <span class="string">&#x27;&#x27;</span> <span class="comment">// &quot;&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>短路规则对这个运算符也适用。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">1</span>;</span><br><span class="line"><span class="literal">true</span> || (x = <span class="number">2</span>) <span class="comment">// true</span></span><br><span class="line">x <span class="comment">// 1</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，或运算符的第一个运算子为<code>true</code>，所以直接返回<code>true</code>，不再运行第二个运算子。所以，<code>x</code>的值没有改变。这种只通过第一个表达式的值，控制是否运行第二个表达式的机制，就称为“短路”（short-cut）。</p>
+<p>或运算符可以多个连用，这时返回第一个布尔值为<code>true</code>的表达式的值。如果所有表达式都为<code>false</code>，则返回最后一个表达式的值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="literal">false</span> || <span class="number">0</span> || <span class="string">&#x27;&#x27;</span> || <span class="number">4</span> || <span class="string">&#x27;foo&#x27;</span> || <span class="literal">true</span></span><br><span class="line"><span class="comment">// 4</span></span><br><span class="line"></span><br><span class="line"><span class="literal">false</span> || <span class="number">0</span> || <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="comment">// &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，例一里面，第一个布尔值为<code>true</code>的表达式是第四个表达式，所以得到数值4。例二里面，所有表达式的布尔值都为<code>false</code>，所以返回最后一个表达式的值。</p>
+<p>或运算符常用于为一个变量设置默认值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">saveText</span>(<span class="params">text</span>) &#123;</span><br><span class="line">  text = text || <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 或者写成</span></span><br><span class="line"><span class="title function_">saveText</span>(<span class="variable language_">this</span>.<span class="property">text</span> || <span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>上面代码表示，如果函数调用时，没有提供参数，则该参数默认设置为空字符串。</p>
+<h2 id="三元条件运算符（-）"><a href="#三元条件运算符（-）" class="headerlink" title="三元条件运算符（?:）"></a>三元条件运算符（?:）</h2><p>三元条件运算符由问号（?）和冒号（:）组成，分隔三个表达式。它是 JavaScript 语言唯一一个需要三个运算子的运算符。如果第一个表达式的布尔值为<code>true</code>，则返回第二个表达式的值，否则返回第三个表达式的值。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#x27;t&#x27;</span> ? <span class="string">&#x27;hello&#x27;</span> : <span class="string">&#x27;world&#x27;</span> <span class="comment">// &quot;hello&quot;</span></span><br><span class="line"><span class="number">0</span> ? <span class="string">&#x27;hello&#x27;</span> : <span class="string">&#x27;world&#x27;</span> <span class="comment">// &quot;world&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>上面代码的<code>t</code>和<code>0</code>的布尔值分别为<code>true</code>和<code>false</code>，所以分别返回第二个和第三个表达式的值。</p>
+<p>通常来说，三元条件表达式与<code>if...else</code>语句具有同样表达效果，前者可以表达的，后者也能表达。但是两者具有一个重大差别，<code>if...else</code>是语句，没有返回值；三元条件表达式是表达式，具有返回值。所以，在需要返回值的场合，只能使用三元条件表达式，而不能使用<code>if..else</code>。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="literal">true</span> ? <span class="string">&#x27;T&#x27;</span> : <span class="string">&#x27;F&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>上面代码中，<code>console.log</code>方法的参数必须是一个表达式，这时就只能使用三元条件表达式。如果要用<code>if...else</code>语句，就必须改变整个代码写法了。</p>
+
+      </div>
+      <div class="post-copyright">
+    <p class="copyright-item">
+      <span>Author: </span>
+      <a href="http://lcy01018.github.io">NING-ZHOU</a>
+    </p>
+    <p class="copyright-item">
+      <span>Link: </span>
+      <a href="http://lcy01018.github.io/2022/04/01/boolean/">http://lcy01018.github.io/2022/04/01/boolean/</a>
+    </p>
+    <p class="copyright-item">
+      <span>License: </span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
+    </p>
+  </div>
+      <footer class="post-footer">
+        <div class="post-tags">
+            <a href="/tags/javascript/">javascript</a>
+            </div>
+        
+        <nav class="post-nav"><a class="prev" href="/2022/04/01/string/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">JS字符串</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    <a class="next" href="/2022/04/01/function/">
+        <span class="next-text nav-default">JS函数</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav></footer>
+    </article></div><div class="comments" id="comments"></div></div>
+      </main>
+
+      <footer id="footer" class="footer"><div class="social-links"><a href="mailto:2483425300@qq.com" class="iconfont icon-email" title="email"></a>
+        <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
+    </div><div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">&copy;2022<span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">NING-ZHOU</span>
+  </span>
+</div>
+</footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/src/even.js?v=2.11.1"></script>
+</body>
+</html>
